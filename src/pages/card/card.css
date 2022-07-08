@@ -1,0 +1,85 @@
+.bids-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+  /* width: 50px !important; */
+  height: 350px;
+  top: 180px;
+  align-items: center;
+}
+.bids-card-container-text h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.bids-card-container-card {
+  margin: 0px;
+  top: 50px;
+}
+
+.card-column {
+  width: 100px;
+  align-items: center;
+}
+.bids-cards {
+  background: #2a2d3a;
+  border-radius: 20px;
+  padding: 12px 12px 12px 12px;
+  margin-inline: 10px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 300px;
+}
+.bids-cards img {
+  border-radius: 20px;
+  width: 100%;
+}
+.bids-cards-top p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.bids-cards-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.bids-cards-bottom p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  /* text-align: right; */
+  color: #ffffff;
+}
+.bids-cards-bottom p:last-child {
+  font-weight: normal;
+}
+.bids-cards-bottom span {
+  font-weight: normal;
+}
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.load-more button {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  margin: 0 1rem;
+  color: var(--primary-color);
+  border-radius: 10px;
+  padding: 10px 100px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}

@@ -1,0 +1,168 @@
+.profile{
+    padding:  0;
+    /* padding-bottom: 6rem; */
+    margin-top: 100px !important;
+    margin-bottom: 25px !important;
+    
+    }
+  
+/*   .BidsContainer {
+    margin-top: 650px;
+    margin-bottom: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 800px;
+    width: 1000px;
+  } */
+  
+.BidsRow {
+    margin-bottom: 150px;
+}
+
+    .profile-top{
+      position: relative;
+      padding-bottom: 3.75rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .profile-banner{
+      width: 1900px !important;
+    }
+    .profile-banner img{
+      width: 1500px;
+      object-fit: cover;
+    }
+    .profile-picture{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 250px !important;
+      /* top: -10rem !important; */
+      
+    }
+    .profile-picture img{
+      border: 6px solid var(--color-bg);
+      border-radius: 50%;
+      width: 70%;
+    }
+    .profile-picture h3{
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 42px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .profile-bottom-input{
+      /* padding: 4rem 6rem; */
+      /* margin: 50px 50px 50px 50px; */
+      margin-bottom: 550px;
+      margin-top: 50px;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .profile-bottom-input input{
+      background: #1B1A21;
+      border-radius: 10px;
+      border: none;
+      padding: 7px 19px 7px 15px;
+      font-family: var(--font-family);
+      outline: none;
+      color: whitesmoke;
+      flex:0.3;
+      display: flex;
+      margin-right: 1rem;
+    }
+    .profile-bottom-input select{
+      background: #1B1A21;
+      border-radius: 10px;
+      border: none;
+      padding: 7px 19px 7px 15px;
+      font-family: var(--font-family);
+      outline: none;
+      color: whitesmoke;
+      flex:0.1;
+      display: flex;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    
+   .profile-licenses-sale {
+    background: transparent;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50px;
+    padding: 7px 19px 7px 15px;
+    font-family: var(--font-family);
+    /* outline: none; */
+    color: whitesmoke;
+    flex:0.1;
+    display: flex;
+    justify-content: center;
+  } 
+  
+  .licences-button {
+    background: #1B1A21;
+    color: whitesmoke;
+    padding: 7px 19px 7px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .licences-names {
+    /* background: #1B1A21; */
+    align-items: center;
+    position: relative;
+    color: whitesmoke;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: -45px;
+  }
+  
+ /*  .load-more {
+    margin-top: 280px;
+    margin-bottom: -350px;
+  } */
+  .btn btn-primary{
+    /* margin-top: 580px; */
+    margin-bottom: -550px
+  }
+    @media screen  and (max-width:1050px){
+      .profile-pic img{
+        width: 50%;
+      }
+      .profile-pic{
+        margin-top: -50px;
+      }
+    
+    }
+    @media screen  and (max-width:550px){
+      .profile-pic h3{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .profile.section__padding{
+        padding: 1rem 0px !important;
+      }
+    }
+    @media screen  and (max-width:500px){
+      .profile-bottom-input {
+        display: none;
+      }
+      .profile-top{
+        padding-bottom: 1rem;
+      }
+    }

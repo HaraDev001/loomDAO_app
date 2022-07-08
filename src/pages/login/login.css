@@ -1,0 +1,263 @@
+
+.justify-content-lg-center {
+  display: flex;
+  align-items: center;
+}
+
+.login{
+    display: flex;
+    font-family: var(--font-family);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+  }
+  .login-container {
+    background: transparent;
+    border-radius: 20px;
+    padding: 2rem;
+    min-width: 30%;
+  }
+  .login-container h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    margin-top: 20px;
+  }
+  
+  .login-formGroup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+.h3-text {
+  /* width: 30px; */
+}
+
+  .h5-text {
+    font-weight: lighter;
+    font-size: smaller;
+  }
+
+  .login-formGroup :hover {
+   background-color: palevioletred !important;
+  }
+
+  .login-formGroup label{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .login-formGroup input{
+    background: transparent;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .login-formGroup textarea{
+    background: transparent;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .login-formGroup select{
+    background: transparent;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    text-overflow: ellipsis;
+  }
+
+
+
+
+  .login-formGroup-modal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .login-formGroup-modal :hover {
+   background-color: palevioletred !important;
+  }
+
+  .login-formGroup-modal label{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .login-formGroup-modal input{
+    background: transparent;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .login-formGroup-modal textarea{
+    background: transparent;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .login-formGroup-modal select{
+    background: transparent;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    text-overflow: ellipsis;
+  }
+
+
+
+
+
+
+
+
+
+  .login-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+  }
+  .login-writeButton{
+    /* float: right; */
+    background: transparent;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .login-reg-writeButton{
+    background-color: transparent;
+    /* border: 1px solid var(--primary-color); */
+    border-radius: 10px;
+    padding: 12px 30px;
+    /* color: var(--primary-color); */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+.button {
+  /* color: black; */
+  /* width: 800px; */
+  /* background: none; */
+  border-radius: 2rem !important;
+  background-color: transparent !important;
+  border-color: white !important;
+  width: 250px;
+}
+
+/* .button :hover {
+  background-color: pink !important;
+} */
+
+.image-button {
+  width: 35px;
+  height: 35px;
+  margin-bottom: -30px;
+  margin-top: -5px;
+}
+
+.modal-top {
+  margin-bottom: 20px;
+  align-items: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.wallet-modal {
+  background-color: rgb(66, 28, 102);
+  border-color: transparent !important;
+  width: 600px;
+  align-items: center;
+  /* border-radius: 1.5rem; */
+}
+
+.modal-button {
+  /* color: black; */
+  /* width: 800px; */
+  /* background: none; */
+  border-radius: 1.5rem !important;
+  background-color: transparent !important;
+  border-color: white !important;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.modal-image-button {
+  width: 75px;
+  height: 65px;
+  margin-bottom: -5px;
+  margin-top: -5px;
+  /* margin-left: 5px; */
+  align-items: center;
+}
+
+
+.text {
+  font-weight: lighter;
+}
+
+  @media screen and (max-width: 550px){
+    .login{
+      padding:2rem 1.5rem !important;
+  
+    }
+    .login-container{
+      padding: 1.5rem 1rem;
+    }
+    .login-container h1{
+      /* display: none; */
+        font-size: 36px;
+        margin-top: 0;
+    }
+    .login-formGroup label{
+      font-size: 20px;
+      line-height: 30px;
+    }
+    
+  }

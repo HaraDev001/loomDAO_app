@@ -1,0 +1,1042 @@
+.item {
+  display: flex;
+  padding: 0 6rem;
+  font-family: var(--font-family);
+  /* margin-top: 0px !important;
+  margin-bottom: 30px; */
+  background-color: transparent !important;
+}
+
+.item-container-div {
+  background-color: transparent !important;
+  top: -250px !important;
+}
+
+.item-image {
+  position: absolute;
+  width: 450px !important;
+  height: 748px !important;
+  left: 140px;
+  top: 152px;
+
+  /* Heli MId Gray */
+
+  border: 1px solid rgba(255, 252, 252, 0.5);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.image-item {
+  position: absolute;
+  width: 395px !important;
+  height: 418px;
+  left: 23px;
+  top: 38px;
+  border-radius: 16px;
+}
+
+.form-item {
+  position: absolute;
+  width: 748px !important;
+  padding-right: 748px !important;
+  height: 301px !important;
+  left: 545px;
+  top: 210px;
+
+  background: #372649;
+  border-radius: 16px;
+  border-width: 5px !important;
+  border-color: linear-gradient(
+    313.42deg,
+    #ee3d9c 15.06%,
+    #ffe06f 84.79%
+  ) !important;
+}
+
+.row0 h5 {
+  position: absolute;
+  width: 268px;
+  height: 20px;
+  left: 35px;
+  top: 11px;
+
+  /* Body 2 */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.row0 image {
+  position: absolute !important;
+  width: 30px !important;
+  height: 30px !important;
+  left: 35px !important;
+  top: 11px !important;
+  z-index: 3;
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.row1 h5 {
+  position: absolute;
+  width: 28px;
+  height: 20px;
+  left: 10px;
+  top: 51px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  /* identical to box height, or 83% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli White */
+
+  color: #fffdfd;
+}
+
+.row2 h5 {
+  position: absolute;
+  width: 28px;
+  height: 20px;
+  left: 90px;
+  top: 51px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  /* identical to box height, or 83% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli White */
+
+  color: #fffdfd;
+}
+
+.row3 h5 {
+  position: absolute;
+  width: 28px;
+  height: 20px;
+  left: 170px;
+  top: 51px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  /* identical to box height, or 83% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli White */
+
+  color: #fffdfd;
+}
+
+.row4 p {
+  position: absolute;
+  width: 38px;
+  height: 16px;
+  left: 10px;
+  top: 81px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.row5 p {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 90px;
+  top: 81px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.row6 p {
+  position: absolute;
+  width: 54px;
+  height: 16px;
+  left: 170px;
+  top: 81px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.item-content-creator {
+}
+
+.hr-form {
+  position: absolute;
+  width: 700px;
+  height: 15px;
+  left: 25px;
+  /* top: 410px; */
+  bottom: 160px;
+
+  /* Heli MId Gray */
+
+  background: rgba(255, 252, 252, 0.5);
+}
+
+.current-price {
+  position: absolute;
+  width: 107px;
+  height: 20px;
+  left: 20px;
+  top: 140px;
+  margin-bottom: 5px !important;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.form-image {
+  height: 34px !important;
+  width: 34px !important;
+  top: 30px !important;
+  border-radius: 0px;
+  z-index: 3;
+}
+
+.row-form {
+  bottom: 5px !important;
+}
+
+.price {
+  position: absolute;
+  width: 72px;
+  height: 20px;
+  left: 10px;
+  top: 185px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 20px;
+  /* identical to box height, or 56% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli White */
+
+  color: #fffdfd;
+}
+
+.price-p {
+  position: absolute;
+  width: 66px;
+  height: 16px;
+  left: 90px;
+  top: 195px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.item-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 5rem;
+  position: relative;
+}
+
+.buynow-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 20px;
+
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 20px;
+  bottom: 20px;
+
+  /* Heli Accent */
+
+  background: #bc1064 !important;
+  border-radius: 100px !important;
+}
+
+.buycard-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 20px;
+
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 290px;
+  bottom: 20px;
+
+  /* Heli MId Gray */
+
+  background: rgba(255, 252, 252, 0.5) !important;
+  border-radius: 100px !important;
+}
+
+.item-content-title {
+}
+
+.item-content-title h1 {
+  position: absolute;
+  width: 226px;
+  height: 42px;
+  left: 545px;
+  top: 120px;
+
+  /* Heli Title */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+.item-content-title p {
+  position: absolute;
+  width: 85px;
+  height: 40px;
+  left: 545px;
+  top: 160px;
+
+  /* Body 2 */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.item-content-title h2 {
+  position: absolute;
+  left: 740px;
+  top: 160px;
+
+  /* Body 2 */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.item-content-title span {
+  font-weight: 600;
+}
+.item-content-creator {
+  margin-top: 30px;
+}
+.item-content-creator p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.item-content-creator div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.item-content-creator div:last-child p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.item-content-creator img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.item-content-detail {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 1px solid rgba(165, 165, 165, 0.1);
+  padding-top: 20px;
+}
+.item-content-detail p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 500px;
+}
+.item-content-buy .primary-btn {
+  background: var(--primary-btn);
+  border-radius: 10px;
+  border: none;
+  padding: 0.75rem 3rem;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 20px;
+}
+.item-content-buy .secondary-btn {
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  padding: 0.7rem 3rem;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.item-content-action {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+.item-content-action p {
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  background: var(--primary-btn);
+  margin-inline: 10px;
+  border-radius: 5px;
+  padding: 5px 5px 0px 5px;
+}
+
+.container-bids-row {
+  margin-top: 1000px !important;
+  margin-bottom: 350px;
+}
+
+.description-company-p {
+  position: absolute;
+  width: 67px;
+  height: 17px;
+  left: 20px;
+  top: 480px;
+
+  /* H8 Medium Text */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height, or 121% */
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.description-company-p2 {
+  position: absolute;
+  width: 385px;
+  height: 67px;
+  left: 20px;
+  top: 510px;
+  padding-right: 50px !important;
+
+  /* H8 Medium Text */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* or 121% */
+
+  /* Heli White */
+
+  color: #fffdfd;
+}
+
+.description-company-p3 {
+  position: absolute;
+  width: 176px;
+  height: 105px;
+  left: 21px;
+  top: 625px;
+
+  /* H8 Medium Text */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* or 121% */
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.description-company-p4 {
+  position: absolute;
+  width: 176px;
+  height: 102px;
+  left: 261px;
+  top: 625px;
+
+  /* H8 Medium Text */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* or 121% */
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.description-company-hr {
+  position: absolute;
+  width: 400px !important;
+  height: 5px;
+  left: 20px;
+  top: 600px;
+
+  /* Heli MId Gray */
+
+  background: rgba(255, 252, 252, 0.5);
+}
+
+.buy-modal {
+  /* position: relative;
+  width: 500px !important;
+  height: 527px !important;
+  border-radius: 16px !important; */
+}
+
+.wallet-modal {
+  background: #372649 !important;
+  border-color: #372649 !important;
+  position: relative;
+  width: 500px !important;
+  height: 527px !important;
+  /* background: #372649; */
+  border-radius: 16px !important;
+}
+
+.image-modal {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 49px;
+  top: 147px;
+
+  /* Heli MId Gray */
+
+  /* background: rgba(255, 252, 252, 0.5); */
+  border-radius: 16px;
+}
+
+.modal-title {
+  position: absolute;
+  width: 210px;
+  height: 28px;
+  left: 48px;
+  top: 43px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #ffffff;
+}
+/* .row-modal {
+  margin-bottom: 15px;
+  display: flex;
+} */
+
+.hr1 {
+  position: absolute;
+  width: 415px;
+  height: 4px;
+  left: 49px;
+  top: 120px;
+
+  /* Heli MId Gray */
+
+  color: #ffffff;
+}
+
+.hr2 {
+  position: absolute;
+  width: 415px;
+  height: 4px;
+  left: 49px;
+  top: 260px;
+
+  /* Heli MId Gray */
+
+  color: #ffffff;
+}
+
+.hr3 {
+  position: absolute;
+  width: 415px;
+  height: 4px;
+  left: 49px;
+  top: 343px;
+
+  /* Heli MId Gray */
+
+  color: #ffffff;
+}
+
+.modal-check {
+  position: absolute;
+  left: 40px;
+  /* right: 76.6%; */
+  top: 69.62%;
+  /* bottom: 22.58%; */
+
+  transform: rotate(180deg);
+}
+
+.checkout-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 20px;
+
+  position: absolute;
+  width: 182px;
+  height: 50px;
+  left: calc(50% - 182px / 2 - 98px);
+  top: calc(50% - 50px / 2 + 199.5px);
+
+  /* Heir back */
+  border-color: rgba(32, 8, 59, 0.75) !important;
+  background: rgba(32, 8, 59, 0.75) !important;
+  border-radius: 100px !important;
+}
+
+.funds-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 20px;
+
+  position: absolute;
+  width: 182px;
+  height: 50px;
+  left: calc(50% - 182px / 2 + 98px);
+  top: calc(50% - 50px / 2 + 199.5px);
+
+  /* Heli Accent */
+  border-color: #bc1064 !important;
+  background: #bc1064 !important;
+  border-radius: 100px !important;
+}
+
+.modal-item-text {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  left: 49px;
+  top: 103px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli White */
+
+  color: #fffdfd;
+}
+
+.modal-subtotal-text {
+  position: absolute;
+  width: 55px;
+  height: 20px;
+  left: -20px;
+  top: 103px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: right;
+  letter-spacing: 0.25px;
+
+  /* Heli White */
+
+  color: #fffdfd;
+}
+
+.collection-modal {
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  left: 166px;
+  top: 150px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli Accent */
+
+  color: #bc1064;
+}
+
+.licencename-modal {
+  position: absolute;
+  width: 113px;
+  height: 21px;
+  left: 166px;
+  top: 171px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.icon-modal {
+  position: absolute;
+  left: 80.6%;
+  right: 16.4%;
+  top: 39.85%;
+  bottom: 57.31%;
+
+  height: 15px;
+  width: 15px !important;
+  left: 403px;
+  top: 210px;
+  border-radius: 0px;
+}
+
+.icon-modal-text {
+  position: absolute;
+  width: 37px;
+  height: 20px;
+  left: 427px;
+  top: 208px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli White */
+
+  color: #fffdfd;
+}
+
+.icon-modal-subtext {
+  position: absolute;
+  width: 62px;
+  height: 16px;
+  left: 403px;
+  top: 234px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.icon-total {
+  position: absolute;
+  width: 33px;
+  height: 20px;
+  left: 49px;
+  top: 287px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli White */
+
+  color: #fffdfd;
+}
+
+.icon-modal-text2 {
+  position: absolute;
+  width: 37px;
+  height: 20px;
+  left: 427px;
+  top: 284px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli Accent */
+
+  color: #bc1064;
+}
+
+.icon-modal2 {
+  position: absolute;
+  left: 80.6%;
+  right: 16.4%;
+  top: 54.27%;
+  bottom: 42.88%;
+  height: 15px;
+  width: 15px !important;
+  left: 403px;
+  top: 286px;
+  border-radius: 0px;
+}
+
+.icon-modal-subtext2 {
+  position: absolute;
+  width: 62px;
+  height: 16px;
+  left: 403px;
+  top: 310px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.modal-check-text {
+  position: absolute;
+  width: 294px;
+  height: 40px;
+  left: 120px;
+  top: 368px;
+
+  /* Body 2 */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: 0.25px;
+
+  /* Heli MId Gray */
+
+  color: rgba(255, 252, 252, 0.5);
+}
+
+.roadmap-container {
+  position: absolute;
+  width: 755px !important;
+  height: 271px;
+  left: 630px;
+  top: 629px;
+
+  /* Heli MId Gray */
+
+  border: 1px solid rgba(255, 252, 252, 0.5);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 1050px) {
+  .item {
+    flex-direction: column;
+  }
+  .item-content {
+    margin: 0 0 3rem;
+  }
+  .item-image {
+    border-right: unset;
+  }
+  .item-content-detail p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .item-content h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .item-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .item-content__people {
+    flex-direction: column;
+  }
+  .item-content__people p {
+    margin: 0;
+  }
+  .item-content__input input,
+  .item-content__input button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .item-content-buy .primary-btn {
+    padding: 0.75rem 20px;
+  }
+  .item-content-buy .secondary-btn {
+    padding: 0.75rem 33px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .item-content h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .item-content p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .item-content__input input,
+  .item-content__input button {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .item {
+    padding-inline: 1rem !important ;
+    padding-top: 1rem !important;
+  }
+  .item-image img {
+    padding: 0;
+    border-radius: 20px;
+    margin-bottom: 25px;
+  }
+  .item-content-buy .primary-btn {
+    margin-right: 10px;
+  }
+  .item-content-action {
+    top: 15%;
+  }
+  .item-content-action p {
+    margin-inline: 5px;
+  }
+}

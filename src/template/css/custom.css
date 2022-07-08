@@ -1,0 +1,54 @@
+/* your styles go here */
+body {
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.particles-canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+#particles-js {
+    z-index: 0;
+}
+.hero {
+    position: unset;
+}
+.about {
+    position: relative;
+    min-height: 35vh;
+}
+.about .image-box {
+    flex: 30%;
+}
+.about .text-box {
+    flex: auto;
+}
+.team {
+    position: relative;
+    min-height: 100vh;
+}
+.roadmap {
+    position: relative;
+    min-height: 35vh;
+}
+
+.btn-primary:disabled,
+.btn-primary.disabled {
+    color: #fff;
+    background-color: #2ca0c4;
+    border-color: #2ca0c4;
+}
+
+.btn-gradient-primary {
+    background: linear-gradient(45deg, #2ca0c4, #2c3bc4) !important;
+    border: none !important;
+    color: white !important;
+    box-shadow: 0 2px 1px rgba(44, 160, 196, 0.2);
+}
+
+.bg-primary {
+    background-color: #2ca0c4 !important;
+}
